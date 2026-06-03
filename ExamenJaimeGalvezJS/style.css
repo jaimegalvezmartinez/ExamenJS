@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column; 
+    /* Utiliza Flexbox para centrar todo el contenido de la página tanto horizontal como verticalmente en el centro de la pantalla */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+h1 {
+    color: #0080ff
+}
+
+/* Marcador */
+#marcador {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: rgb(148, 148, 148);
+    padding: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Contenedor de botones */
+#opciones {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Resultado */
+#resultado {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    min-height: 1.5em;
+}
+
+/* Botón de reiniciar */
+#btnReiniciar {
+    background-color: #e74c3c;
+}
+
+#btnReiniciar:hover {
+    background-color: #c0392b;
+}

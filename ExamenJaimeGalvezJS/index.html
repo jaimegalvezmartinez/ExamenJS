@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Piedra, Papel o Tijera</h1>
+    
+    <div id="marcador">
+        <p>Jugador: <span id="ptsJugador">0</span> | Máquina: <span id="ptsMaquina">0</span></p>
+    </div>
+ 
+    <div id="opciones">
+        <button onclick="jugar('Piedra')">Piedra</button>
+        <button onclick="jugar('Papel')">Papel</button>
+        <button onclick="jugar('Tijera')">Tijera</button>
+    </div>
+
+    <p id="resultado"></p>
+    <button id="btnReiniciar" onclick="reiniciarJuego()" style="display:none;">Reiniciar Partida</button>
+</body>
+</html>
